@@ -1,0 +1,50 @@
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Youtube Video Search App</title>
+</head>
+ 
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">
+            Youtube Video Search Using Data API V3
+        </h1>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" name="" id="search">
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-danger" value="Search Videos" id="searchForm">
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="videos" style="padding: 5rem;">
+                    <div id="default">
+                        </div>
+                    </div>
+                    <div id="searched"></div>
+                </div>
+            </div><br>
+            <div>
+                <nav aria-label="Page navigation example">
+                    <ul>
+                        <li class="page-item"><a class="page-link" id='previous'>Previous</a></li>
+                        <ul id="pagination"></ul>
+                        <li class="page-item"><a class="page-link" id='next'>Next</a></li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+<!-- jQuery library -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+<script src="../javascript/homescreen.js"></script>
+</html>
